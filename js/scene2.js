@@ -98,13 +98,27 @@ var king = document.querySelector('#king')
   // Stage direction 1
 
   frame(function() {
-
+    joffrey.style.top = 0
+    joffrey.style.left = '33%'
   })
-
-  // Stage direction 2
 
   frame(function() {
-
+    joffrey.style.top = '25%'
+    joffrey.style.left = '120%'
+    joffrey.style.transform = 'rotateZ(90deg)'
   })
+
+  frame(function() {
+    joffrey.style.top = '50%'
+    joffrey.style.left = '210%'
+    joffrey.style.transform = 'rotateZ(200deg)'
+  })
+
+  frame(function() {
+  joffrey.style.top = '75%'
+  joffrey.style.left = '300%'
+  joffrey.style.transform = 'rotateZ(120deg)'
+
+})
 
 }
