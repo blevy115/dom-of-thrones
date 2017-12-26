@@ -16,20 +16,42 @@ function scene2() {
     nedContainer.style.height = '44%';
     nedContainer.style.top = '50%';
     nedContainer.style.left = '50%';
-  var ned = document.querySelector('#ned');
-    nedContainer.append(ned);
-  var leather = document.querySelector('#leather-armour');
-    nedContainer.append(leather);
-
-    ned.style.width = '70%';
-    ned.style.position = 'absolute';
-    ned.style.top = 0;
-    leather.style.position = 'absolute';
-    leather.style.bottom = 0;
     nedContainer.style.height = '37%';
     nedContainer.style.top = '55%';
     nedContainer.style.left = '25%';
+
+  var ned = document.querySelector('#ned');
+    nedContainer.append(ned);
+    ned.style.width = '70%';
+    ned.style.position = 'absolute';
+    ned.style.top = 0;
+
+  var leather = document.querySelector('#leather-armour');
+    nedContainer.append(leather);
+    leather.style.position = 'absolute';
+    leather.style.bottom = 0;
+
   // Character 2
+
+var joffreyContainer = document.createElement('div');
+  stage.append(joffreyContainer);
+  joffreyContainer.style.position = 'absolute';
+  joffreyContainer.style.width = '9%';
+  joffreyContainer.style.height = '35%';
+  joffreyContainer.style.top = '55%';
+  joffreyContainer.style.left = '55%';
+
+var joffrey = document.querySelector('#joffrey');
+  joffreyContainer.append(joffrey);
+  joffrey.style.width = '75%'
+  joffrey.style.position = 'absolute'
+  joffrey.style.left = '33%'
+
+var king = document.querySelector('#king')
+    joffreyContainer.append(king);
+    king.style.position = 'absolute'
+    king.style.bottom = 0
+
 
   // Setup Props
 
