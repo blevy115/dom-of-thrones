@@ -66,7 +66,35 @@ var king = document.querySelector('#king')
   // Prop 2
 
   // Action!
+  // Inital Frame
+  frame(function() {
+    sword.style.top = '77%'
+    sword.style.left = '31%'
+  })
 
+  frame(function(){
+    sword.style.top = '74%'
+    sword.style.left = '36%'
+  })
+
+
+// Middle Frame
+  frame(function() {
+    sword.style.top = '71%'
+    sword.style.left = '41%'
+  })
+
+  frame(function(){
+    sword.style.top = '67%'
+    sword.style.left = '47%'
+  })
+
+
+// Final Frame
+  frame(function() {
+    sword.style.top = '64%'
+    sword.style.left = '53%'
+  })
   // Stage direction 1
 
   frame(function() {
