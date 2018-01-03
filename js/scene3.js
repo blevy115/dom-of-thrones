@@ -47,28 +47,69 @@ console.log('running scene 3');
 
 
   // Setup Props
+  // Prop 1
   var egg = document.querySelector('#egg')
   stage.append(egg)
   egg.style.position = 'absolute'
   egg.style.top = '73%'
   egg.style.left = '24%'
   egg.style.height = '8%'
-  // Prop 1
-
-  // Prop 2
 
   // Action!
 
   // Stage direction 1
 
   frame(function() {
-
+    egg.style.top = '73%'
+    egg.style.left = '24%'
   })
-
-  // Stage direction 2
 
   frame(function() {
-
+    egg.style.top = '61%'
+    egg.style.left = '36%'
+    egg.style.transform = 'rotateZ(90deg)'
   })
 
+  frame(function() {
+    egg.style.top = '50%'
+    egg.style.left = '49%'
+    egg.style.transform = 'rotateZ(180deg)'
+  })
+
+  frame(function() {
+    egg.style.top = '67%'
+    egg.style.left = '62%'
+    egg.style.transform = 'rotateZ(270deg)'
+  })
+
+
+  frame(function() {
+    egg.style.top = '83%'
+    egg.style.left = '74%'
+    egg.style.transform = 'rotateZ(360deg)'
+  })
+
+  frame(function() {
+    egg.style.top = '67%'
+    egg.style.left = '62%'
+    egg.style.transform = 'rotateZ(270deg)'
+  })
+
+  frame(function() {
+    egg.style.top = '50%'
+    egg.style.left = '49%'
+    egg.style.transform = 'rotateZ(180deg)'
+  })
+
+  frame(function() {
+    egg.style.top = '61%'
+    egg.style.left = '36%'
+    egg.style.transform = 'rotateZ(90deg)'
+  })
+
+  frame(function() {
+    egg.style.top = '73%'
+    egg.style.left = '24%'
+    egg.style.transform = 'rotateZ(360deg)'
+  })
 }
