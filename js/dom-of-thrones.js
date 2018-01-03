@@ -11,5 +11,7 @@ function frame(actions) {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-  scene3()
+  mySrc = desert.getAttribute('src')
+  stageImg = document.querySelector('#stage-img')
+  stageImg.setAttribute('src', mySrc)
 })
